@@ -130,7 +130,7 @@ function HomePage() {
 
       {/* TECH STACK */}
       <Section>
-        <SectionHeader tag={t("stack.title")} title="A modern, battle-tested stack" subtitle={t("stack.subtitle")} />
+        <SectionHeader tag={t("stack.title")} title={t("stack.heading")} subtitle={t("stack.subtitle")} />
         <div className="mt-12 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
           {techStack.map((tech, i) => (
             <motion.div
@@ -216,10 +216,10 @@ function HomePage() {
           <div className="relative">
             <Server className="h-10 w-10 text-white/90 mx-auto" />
             <h2 className="mt-4 text-3xl sm:text-4xl font-bold text-white">
-              Have a project in mind?
+              {t("home.cta.title")}
             </h2>
             <p className="mt-3 text-white/80 max-w-xl mx-auto">
-              From greenfield builds to enterprise modernisation — let's talk about what you need.
+              {t("home.cta.subtitle")}
             </p>
             <Link
               to="/contact"

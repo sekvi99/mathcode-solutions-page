@@ -26,12 +26,12 @@ export const Route = createFileRoute("/about")({
 });
 
 const specs = [
-  { i: Code, t: ".NET / C#", d: "High-performance backend services with .NET Core, ASP.NET and Ocelot." },
-  { i: Terminal, t: "Angular / React", d: "Modern web apps with TypeScript, Angular and React." },
-  { i: Server, t: "Microservices", d: "Distributed architecture, Kafka integration and service orchestration." },
-  { i: Cloud, t: "Azure / Docker", d: "Cloud-native deployments, containerization and Linux production workflows." },
-  { i: Database, t: "Data & Search", d: "MongoDB, Redis, SQL Server and Elasticsearch for analytics and caching." },
-  { i: Briefcase, t: "Architecture", d: "Microservices, event-driven design and scalable enterprise systems." },
+  { i: Code, t: "about.spec.1.t", d: "about.spec.1.d" },
+  { i: Terminal, t: "about.spec.2.t", d: "about.spec.2.d" },
+  { i: Server, t: "about.spec.3.t", d: "about.spec.3.d" },
+  { i: Cloud, t: "about.spec.4.t", d: "about.spec.4.d" },
+  { i: Database, t: "about.spec.5.t", d: "about.spec.5.d" },
+  { i: Briefcase, t: "about.spec.6.t", d: "about.spec.6.d" },
 ];
 
 function AboutPage() {
@@ -89,7 +89,7 @@ function AboutPage() {
       </Section>
 
       <Section>
-        <SectionHeader tag={t("about.specializations")} title="Specialisations" align="left" />
+        <SectionHeader tag={t("about.specializations")} title={t("about.specs.heading")} align="left" />
         <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {specs.map((s, i) => (
             <motion.div
@@ -103,15 +103,15 @@ function AboutPage() {
               <div className="grid place-items-center h-10 w-10 rounded-lg gradient-primary mb-4">
                 <s.i className="h-5 w-5 text-white" />
               </div>
-              <h3 className="font-semibold">{s.t}</h3>
-              <p className="mt-1.5 text-sm text-muted-foreground">{s.d}</p>
+              <h3 className="font-semibold">{t(s.t)}</h3>
+              <p className="mt-1.5 text-sm text-muted-foreground">{t(s.d)}</p>
             </motion.div>
           ))}
         </div>
       </Section>
 
       <Section>
-        <SectionHeader tag={t("about.experience")} title="Career timeline" align="left" />
+        <SectionHeader tag={t("about.experience")} title={t("about.experience.heading")} align="left" />
         <Timeline
           items={[
             { y: "2026 — Present", t: t("about.timeline.1.t"), d: t("about.timeline.1.d") },
@@ -123,7 +123,7 @@ function AboutPage() {
       </Section>
 
       <Section>
-        <SectionHeader tag={t("about.education")} title="Education timeline" align="left" />
+        <SectionHeader tag={t("about.education")} title={t("about.education.heading")} align="left" />
         <Timeline
           items={[
             { y: "2014 — 2016", t: t("about.edu.1.t"), d: t("about.edu.1.d") },

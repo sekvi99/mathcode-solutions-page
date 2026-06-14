@@ -36,48 +36,48 @@ export const Route = createFileRoute("/services")({
 const services = [
   {
     i: Globe,
-    t: "Full-stack web applications",
-    d: "Production-ready web products built with .NET and Angular, end-to-end.",
+    t: "services.1.t",
+    d: "services.1.d",
   },
   {
     i: Boxes,
-    t: "Enterprise software",
-    d: "Large-scale internal systems with audit, security and compliance in mind.",
+    t: "services.2.t",
+    d: "services.2.d",
   },
   {
     i: Layers,
-    t: "Backend architecture",
-    d: "Modular monoliths, microservices, event-driven systems, DDD and CQRS.",
+    t: "services.3.t",
+    d: "services.3.d",
   },
   {
     i: Cloud,
-    t: "Cloud-native solutions",
-    d: "Azure-first designs with autoscaling, observability and cost control.",
+    t: "services.4.t",
+    d: "services.4.d",
   },
   {
     i: Code2,
-    t: "API development & integrations",
-    d: "REST, gRPC, GraphQL and third-party platform integrations built to last.",
+    t: "services.5.t",
+    d: "services.5.d",
   },
   {
     i: Cpu,
-    t: "Docker & Kubernetes",
-    d: "Containerised workloads on AKS with GitOps, Helm and zero-downtime rollouts.",
+    t: "services.6.t",
+    d: "services.6.d",
   },
   {
     i: GitBranch,
-    t: "Application modernisation",
-    d: "Migrating legacy systems to modern .NET, cloud and CI/CD pipelines.",
+    t: "services.7.t",
+    d: "services.7.d",
   },
   {
     i: Gauge,
-    t: "Performance optimisation",
-    d: "Profiling, caching, query tuning and front-end performance work.",
+    t: "services.8.t",
+    d: "services.8.d",
   },
   {
     i: Workflow,
-    t: "Consulting & architecture",
-    d: "Senior technical advisory, audits, and architecture design reviews.",
+    t: "services.9.t",
+    d: "services.9.d",
   },
 ];
 
@@ -106,8 +106,8 @@ function ServicesPage() {
                 <div className="grid place-items-center h-12 w-12 rounded-xl gradient-primary shadow-glow mb-5">
                   <s.i className="h-6 w-6 text-white" />
                 </div>
-                <h3 className="text-lg font-semibold">{s.t}</h3>
-                <p className="mt-2 text-sm text-muted-foreground">{s.d}</p>
+                <h3 className="text-lg font-semibold">{t(s.t)}</h3>
+                <p className="mt-2 text-sm text-muted-foreground">{t(s.d)}</p>
               </div>
             </motion.div>
           ))}
@@ -119,10 +119,10 @@ function ServicesPage() {
           <div className="absolute inset-0 gradient-primary" />
           <div className="relative">
             <h2 className="text-3xl sm:text-4xl font-bold text-white">
-              Not sure which service fits?
+              {t("services.help.title")}
             </h2>
             <p className="mt-3 text-white/80 max-w-xl mx-auto">
-              Send me a short description of your project — I'll suggest the right approach.
+              {t("services.help.subtitle")}
             </p>
             <Link
               to="/contact"
