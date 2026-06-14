@@ -108,9 +108,6 @@ function ServicesPage() {
                 </div>
                 <h3 className="text-lg font-semibold">{s.t}</h3>
                 <p className="mt-2 text-sm text-muted-foreground">{s.d}</p>
-                <div className="mt-5 inline-flex items-center gap-1 text-xs font-mono uppercase tracking-wider text-primary opacity-0 group-hover:opacity-100 transition-opacity">
-                  Learn more <ArrowRight className="h-3 w-3" />
-                </div>
               </div>
             </motion.div>
           ))}

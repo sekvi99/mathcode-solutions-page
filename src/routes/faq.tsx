@@ -40,10 +40,6 @@ const faqsEn = [
     a: "Absolutely. Modernisation is a core focus — from migrating legacy .NET Framework apps to .NET 8 to containerising monoliths and moving them to Azure / Kubernetes.",
   },
   {
-    q: "Do you offer maintenance and support?",
-    a: "Yes. After delivery I offer monthly support contracts covering bug fixes, dependency updates, monitoring, performance tuning and small feature work.",
-  },
-  {
     q: "How do you handle confidentiality?",
     a: "Every engagement starts with an NDA. Code, credentials and data are handled inside your infrastructure whenever possible.",
   },
@@ -65,10 +61,6 @@ const faqsPl = [
   {
     q: "Czy modernizujesz istniejące systemy?",
     a: "Tak. Modernizacja to jedna z głównych specjalizacji — od migracji legacy .NET Framework do .NET 8 po konteneryzację monolitów i przeniesienie ich na Azure / Kubernetes.",
-  },
-  {
-    q: "Czy oferujesz wsparcie i utrzymanie?",
-    a: "Tak. Po wdrożeniu oferuję miesięczne umowy wsparcia obejmujące poprawki, aktualizacje zależności, monitoring, optymalizację oraz drobne nowe funkcje.",
   },
   {
     q: "Jak dbasz o poufność?",

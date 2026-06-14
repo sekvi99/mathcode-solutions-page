@@ -156,11 +156,10 @@ function HomePage() {
       {/* STATS */}
       <Section className="!py-12">
         <div className="glass rounded-3xl p-8 sm:p-12 shadow-soft">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { v: "80+", l: t("stats.projects") },
-              { v: "9+", l: t("stats.years") },
-              { v: "40+", l: t("stats.clients") },
+              { v: "10+", l: t("stats.projects") },
+              { v: "5+", l: t("stats.years") },
               { v: "99.9%", l: t("stats.uptime") },
             ].map((s, i) => (
               <motion.div

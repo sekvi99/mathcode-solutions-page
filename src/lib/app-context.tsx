@@ -22,7 +22,7 @@ const dict: Record<Lang, Record<string, string>> = {
     "nav.contact": "Contact",
     "nav.cta": "Start a project",
 
-    "hero.tag": "Senior Full-Stack Engineering",
+    "hero.tag": "Full-Stack Engineering",
     "hero.title": "Scalable Software Solutions Built for Modern Businesses",
     "hero.subtitle":
       "I design and ship resilient enterprise applications with .NET, Angular, and cloud-native architecture — from first commit to production.",
@@ -51,19 +51,21 @@ const dict: Record<Lang, Record<string, string>> = {
     "about.tag": "About me",
     "about.title": "Engineer. Architect. Problem solver.",
     "about.lead":
-      "I'm a senior full-stack engineer specialising in enterprise .NET systems, Angular front-ends, and cloud-native deployments on Azure and Kubernetes.",
+      "I'm Filip Koźlik, a software engineer from Poland building scalable backend and frontend solutions with cloud-native microservices.",
     "about.p1":
-      "For nearly a decade I've helped teams ship products that need to be fast, observable, and dependable — from greenfield SaaS platforms to large-scale modernisation programmes.",
+      "I deliver high-performance systems using C#, .NET Core, ASP.NET, Ocelot, Angular, React, and TypeScript across distributed architecture.",
     "about.p2":
-      "I care about clean architecture, pragmatic DevOps, and writing software that other engineers enjoy maintaining.",
+      "I design and optimise resilient applications with MongoDB, Redis, SQL Server, Elasticsearch, Docker, Kafka, and Azure.",
     "about.specializations": "Specialisations",
     "about.experience": "Experience",
-    "about.timeline.1.t": "Senior Full-Stack Engineer",
-    "about.timeline.1.d": "Architecting distributed .NET platforms with Angular front-ends.",
-    "about.timeline.2.t": "Cloud & DevOps Lead",
-    "about.timeline.2.d": "Kubernetes, Azure, GitOps pipelines and observability at scale.",
-    "about.timeline.3.t": "Backend Engineer",
-    "about.timeline.3.d": "Designing APIs, event-driven systems, and SQL data layers.",
+    "about.timeline.1.t": "C# Server Developer @ SuperPlay",
+    "about.timeline.1.d": "Building high-performance backend systems, Redis caching and distributed services on Linux with Docker.",
+    "about.timeline.2.t": "Software Engineer @ GlobalLogic",
+    "about.timeline.2.d": "Developing enterprise software with OPC integration, microservices, MongoDB, Redis, Elasticsearch and Azure.",
+    "about.timeline.3.t": "Software Developer @ Smart EPC",
+    "about.timeline.3.d": "Built IoT data management and visualization solutions using Angular, C#, .NET and Docker.",
+    "about.timeline.4.t": "Junior Software Developer @ Smart EPC",
+    "about.timeline.4.d": "Automated workflows and data extraction tools with Python, Django and SQL Server.",
     "about.education": "Education",
     "about.edu.1.t": "M.Sc. Computer Science",
     "about.edu.1.d": "Distributed systems and software architecture — graduated with honours.",
@@ -102,7 +104,7 @@ const dict: Record<Lang, Record<string, string>> = {
     "nav.contact": "Kontakt",
     "nav.cta": "Rozpocznij projekt",
 
-    "hero.tag": "Senior Full-Stack Engineering",
+    "hero.tag": "Full-Stack Engineering",
     "hero.title": "Skalowalne oprogramowanie dla nowoczesnego biznesu",
     "hero.subtitle":
       "Projektuję i wdrażam niezawodne aplikacje enterprise w .NET, Angularze i architekturze cloud-native — od pierwszego commita do produkcji.",

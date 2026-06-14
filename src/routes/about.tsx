@@ -26,14 +26,12 @@ export const Route = createFileRoute("/about")({
 });
 
 const specs = [
-  { i: Code, t: ".NET / C#", d: "Enterprise back-ends, microservices, EF Core, MediatR." },
-  { i: Terminal, t: "Angular", d: "Modern reactive front-ends with RxJS and NgRx." },
-  { i: Server, t: "Docker", d: "Multi-stage builds and reproducible artifacts." },
-  { i: Cloud, t: "Kubernetes", d: "Helm, operators, autoscaling, GitOps." },
-  { i: Cloud, t: "Azure", d: "AKS, App Service, Service Bus, Functions, KeyVault." },
-  { i: Briefcase, t: "Architecture", d: "DDD, CQRS, event-driven, hexagonal." },
-  { i: Database, t: "Data", d: "SQL Server, PostgreSQL, Redis, Cosmos DB." },
-  { i: Server, t: "DevOps", d: "GitHub Actions, Azure DevOps, observability." },
+  { i: Code, t: ".NET / C#", d: "High-performance backend services with .NET Core, ASP.NET and Ocelot." },
+  { i: Terminal, t: "Angular / React", d: "Modern web apps with TypeScript, Angular and React." },
+  { i: Server, t: "Microservices", d: "Distributed architecture, Kafka integration and service orchestration." },
+  { i: Cloud, t: "Azure / Docker", d: "Cloud-native deployments, containerization and Linux production workflows." },
+  { i: Database, t: "Data & Search", d: "MongoDB, Redis, SQL Server and Elasticsearch for analytics and caching." },
+  { i: Briefcase, t: "Architecture", d: "Microservices, event-driven design and scalable enterprise systems." },
 ];
 
 function AboutPage() {
@@ -79,25 +77,12 @@ function AboutPage() {
             className="relative justify-self-center lg:justify-self-end"
           >
             <div className="absolute -inset-4 rounded-3xl gradient-primary opacity-30 blur-2xl" />
-            <div className="relative h-64 w-64 sm:h-72 sm:w-72 rounded-3xl glass shadow-elegant overflow-hidden grid place-items-center">
-              <svg
-                viewBox="0 0 200 200"
-                className="absolute inset-0 w-full h-full opacity-20"
-                fill="none"
-              >
-                <defs>
-                  <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse">
-                    <circle cx="2" cy="2" r="1" fill="currentColor" />
-                  </pattern>
-                </defs>
-                <rect width="200" height="200" fill="url(#dots)" />
-              </svg>
-              <div className="relative text-center p-6">
-                <div className="text-7xl font-display font-bold gradient-text">MC</div>
-                <p className="mt-3 text-xs font-mono uppercase tracking-widest text-muted-foreground">
-                  Photo placeholder
-                </p>
-              </div>
+            <div className="relative h-64 w-64 sm:h-72 sm:w-72 rounded-3xl shadow-elegant overflow-hidden">
+              <img
+                src="/avatar.jpg"
+                alt="Filip Koźlik"
+                className="w-full h-full object-cover"
+              />
             </div>
           </motion.div>
         </div>
@@ -129,9 +114,10 @@ function AboutPage() {
         <SectionHeader tag={t("about.experience")} title="Career timeline" align="left" />
         <Timeline
           items={[
-            { y: "2022 — Now", t: t("about.timeline.1.t"), d: t("about.timeline.1.d") },
-            { y: "2019 — 2022", t: t("about.timeline.2.t"), d: t("about.timeline.2.d") },
-            { y: "2016 — 2019", t: t("about.timeline.3.t"), d: t("about.timeline.3.d") },
+            { y: "2026 — Present", t: t("about.timeline.1.t"), d: t("about.timeline.1.d") },
+            { y: "2024 — 2026", t: t("about.timeline.2.t"), d: t("about.timeline.2.d") },
+            { y: "2023 — 2024", t: t("about.timeline.3.t"), d: t("about.timeline.3.d") },
+            { y: "2022 — 2023", t: t("about.timeline.4.t"), d: t("about.timeline.4.d") },
           ]}
         />
       </Section>
