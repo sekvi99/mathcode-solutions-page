@@ -37,7 +37,7 @@ const faqsEn = [
   },
   {
     q: "Can you modernise existing systems?",
-    a: "Absolutely. Modernisation is a core focus — from migrating legacy .NET Framework apps to .NET 8 to containerising monoliths and moving them to Azure / Kubernetes.",
+    a: "Absolutely. Modernisation is a core focus — from migrating legacy .NET Framework apps to .NET 10 to containerising monoliths and moving them to Azure / Kubernetes.",
   },
   {
     q: "How do you handle confidentiality?",
@@ -60,7 +60,7 @@ const faqsPl = [
   },
   {
     q: "Czy modernizujesz istniejące systemy?",
-    a: "Tak. Modernizacja to jedna z głównych specjalizacji — od migracji legacy .NET Framework do .NET 8 po konteneryzację monolitów i przeniesienie ich na Azure / Kubernetes.",
+    a: "Tak. Modernizacja to jedna z głównych specjalizacji — od migracji legacy .NET Framework do .NET 10 po konteneryzację monolitów i przeniesienie ich na Azure / Kubernetes.",
   },
   {
     q: "Jak dbasz o poufność?",

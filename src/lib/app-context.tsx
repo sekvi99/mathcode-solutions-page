@@ -55,7 +55,7 @@ const dict: Record<Lang, Record<string, string>> = {
     "about.tag": "About me",
     "about.title": "Engineer. Architect. Problem solver.",
     "about.lead":
-      "I'm Filip Koźlik, a software engineer from Poland building scalable backend and frontend solutions with cloud-native microservices.",
+      "I'm a senior full-stack engineer specialising in .NET systems, Angular frontends, and cloud-native deployments on Azure and Kubernetes. For several years, I've helped teams deliver products that are fast and reliable — from greenfield SaaS projects to large-scale modernisations of existing systems. I focus on clean architecture, pragmatic DevOps, and code that other developers enjoy working with.",
     "about.p1":
       "I deliver high-performance systems using C#, .NET Core, ASP.NET, Ocelot, Angular, React, and TypeScript across distributed architecture.",
     "about.p2":
@@ -132,7 +132,7 @@ const dict: Record<Lang, Record<string, string>> = {
     "contact.send": "Send message",
     "contact.success": "Thanks — your message is on its way.",
 
-    "footer.tagline": "Engineering software that lasts.",
+    "footer.tagline": "I build software that stands the test of time.",
     "footer.rights": "All rights reserved.",
   },
   pl: {
@@ -176,7 +176,7 @@ const dict: Record<Lang, Record<string, string>> = {
     "about.tag": "O mnie",
     "about.title": "Inżynier. Architekt. Rozwiązuję problemy.",
     "about.lead":
-      "Jestem senior full-stack engineerem specjalizującym się w systemach .NET, frontendach w Angularze oraz wdrożeniach cloud-native na Azure i Kubernetes.",
+      "Jestem senior full-stack engineerem specjalizującym się w systemach .NET, frontendach budowanych w Angularze oraz wdrożeniach cloud-native na Azure i w Kubernetesie. Od kilku lat pomagam zespołom dostarczać produkty, które są szybkie i niezawodne — od greenfieldowych projektów SaaS po duże modernizacje istniejących systemów. Stawiam na czystą architekturę, pragmatyczny DevOps oraz kod, który inni programiści chętnie rozwijają.",
     "about.p1":
       "Od niemal dekady pomagam zespołom dostarczać produkty, które muszą być szybkie, obserwowalne i niezawodne — od greenfield SaaS po duże modernizacje.",
     "about.p2":
@@ -250,7 +250,7 @@ const dict: Record<Lang, Record<string, string>> = {
     "contact.send": "Wyślij wiadomość",
     "contact.success": "Dziękuję — wiadomość została wysłana.",
 
-    "footer.tagline": "Tworzę oprogramowanie, które trwa.",
+    "footer.tagline": "Tworzę oprogramowanie, które przetrwa próbę czasu.",
     "footer.rights": "Wszelkie prawa zastrzeżone.",
   },
 };
