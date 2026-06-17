@@ -114,10 +114,12 @@ function AboutPage() {
         <SectionHeader tag={t("about.experience")} title={t("about.experience.heading")} align="left" />
         <Timeline
           items={[
-            { y: "2026 — Present", t: t("about.timeline.1.t"), d: t("about.timeline.1.d") },
-            { y: "2024 — 2026", t: t("about.timeline.2.t"), d: t("about.timeline.2.d") },
-            { y: "2023 — 2024", t: t("about.timeline.3.t"), d: t("about.timeline.3.d") },
-            { y: "2022 — 2023", t: t("about.timeline.4.t"), d: t("about.timeline.4.d") },
+            { y: "Jan 2026 — Present", t: t("about.timeline.1.t"), d: t("about.timeline.1.d") },
+            { y: "Jan 2026 — Present", t: t("about.timeline.2.t"), d: t("about.timeline.2.d") },
+            { y: "Sep 2024 — Jan 2026", t: t("about.timeline.3.t"), d: t("about.timeline.3.d") },
+            { y: "Jan 2024 — Sep 2024", t: t("about.timeline.4.t"), d: t("about.timeline.4.d") },
+            { y: "May 2023 — Dec 2023", t: t("about.timeline.5.t"), d: t("about.timeline.5.d") },
+            { y: "Jun 2022 — May 2023", t: t("about.timeline.6.t"), d: t("about.timeline.6.d") },
           ]}
         />
       </Section>
@@ -126,9 +128,10 @@ function AboutPage() {
         <SectionHeader tag={t("about.education")} title={t("about.education.heading")} align="left" />
         <Timeline
           items={[
-            { y: "2014 — 2016", t: t("about.edu.1.t"), d: t("about.edu.1.d") },
-            { y: "2011 — 2014", t: t("about.edu.2.t"), d: t("about.edu.2.d") },
-            { y: "2007 — 2011", t: t("about.edu.3.t"), d: t("about.edu.3.d") },
+            { y: "Mar 2023 — Jun 2024", t: t("about.edu.2.t"), d: t("about.edu.2.d") },
+            { y: "Oct 2019 — Feb 2023", t: t("about.edu.1.t"), d: t("about.edu.1.d") },
+            { y: "Oct 2018 — Feb 2022", t: t("about.edu.3.t"), d: t("about.edu.3.d") },
+            { y: "Sep 2015 — Apr 2018", t: t("about.edu.4.t"), d: t("about.edu.4.d") },
           ]}
         />
       </Section>
